@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.sqlite3
+*.log
+
+# Virtualenv
+venv/
+.venv/
+.env
+*.env
+.python-version
+
+# IDE/OS
+.vscode/
+.idea/
+*.code-workspace
+.DS_Store
+
+# Migrations cache (mantém os .py das migrações!)
+alembic/*.pyc
+
+# Docker
+**/.docker/
+
